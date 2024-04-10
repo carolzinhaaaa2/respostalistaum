@@ -1,0 +1,36 @@
+package ListaUm;
+
+public class Animal {
+  private String raça; 
+  private int idade;
+  private double tamanho;
+  private Object n;
+  
+   public Animal(String r, int i, double t) {
+	   this.raça = r;
+	   this.idade = i ;
+	   this.tamanho = t; 
+   }
+public String getNome() {
+    return raça;
+}
+public int getIdade() {
+	return idade;
+}	
+public double gettamanho() {
+	return tamanho;
+}
+public void setRaça (String r) {
+	this.raça = r;
+}
+public void setIdade (int i) {
+    this.idade = i;
+}
+public void setTamanho (double t) {
+	this.tamanho = t;
+}
+
+public String toString() {
+   return "raça" + raça + "\rIdade" + idade + "\rTamanho" + tamanho ;
+}
+}
