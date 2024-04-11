@@ -1,0 +1,34 @@
+package Cliente;
+
+public class Cliente {
+    private String nome; 
+    private String cpf;
+    private String datanascimento;
+    
+   public cliente(string n, String c, String d) {
+	   this.nome= nome;
+	   this.cpf= c;
+	   this.datanascimento= d;
+   }   
+public String getNome () {
+	  return nome;
+}
+public String  getCfpf () {
+	  return cpf; 
+}
+public String  getDatanascimento() {
+	  return datanascimeto; 
+}
+public void setNome() {
+	this.nome= n;
+   }
+public void setCpf() {
+	this.cpf= c;
+    }	
+public void setDatanascimento() {
+	this.datanascimento= d;
+    }	
+public String toString() {
+	return "nome" + nome + "/nCpf " + cpf + "/ndatanascimento " + datanascimento; 
+ }
+}
