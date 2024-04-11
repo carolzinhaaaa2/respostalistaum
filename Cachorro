@@ -1,0 +1,34 @@
+package Cachorro;
+
+public class Cachorro {
+  private String nome;
+  private String raça;
+  private int idade;
+  
+  public Cachorro(String n, String r, int i) {
+	  this.nome= n;
+	  this.raça= r;
+	  this.idade= i;
+  }
+  public String getNome() {
+	  return nome;
+  }
+  public String getRaça()  {
+	  return raça;
+  }
+  public String getIdade()  {
+	  return idade; 
+  }
+  public void setNome()  {
+	this.nome= n;
+    }
+  public void setRaça()  {
+	  this.raça= r;
+      }
+  public void setIdade()  {
+	  this.idade= i;
+  }
+ public String latir()  {
+	 return "Au au';
+ }
+} 
